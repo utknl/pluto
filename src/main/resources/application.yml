@@ -1,0 +1,17 @@
+baseUrl: "update me with the base url of the backend service before running the application"
+server:
+  port: 8791
+
+user-login:
+  url: "${baseUrl}/merchant/user/login"
+transaction:
+  list: "${baseUrl}/transaction/list"
+  url: "${baseUrl}/transaction"
+transactions-report:
+  url: "${baseUrl}/transactions/report"
+client:
+  url: "${baseUrl}/client"
+
+springdoc:
+  api-docs:
+    path: "/api-docs"
